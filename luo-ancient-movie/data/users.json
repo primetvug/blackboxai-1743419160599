@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "email": "user@example.com",
+    "password": "$2a$10$N9qo8uLOickgx2ZMRZoMy.MQDqShPs6QeOMd8z2mBPJdJY5YhJQeK",
+    "subscription": {
+      "plan": "monthly",
+      "expiresAt": "2023-12-31"
+    },
+    "purchasedMovies": [1, 3]
+  }
+]
