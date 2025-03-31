@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luo Ancient Movie - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg');
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="bg-black py-4 px-6 flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+            <i class="fas fa-film text-yellow-500 text-2xl"></i>
+            <span class="text-xl font-bold">Luo Ancient Movie</span>
+        </div>
+        <div>
+            <a href="subscription.html" class="text-yellow-500 hover:text-yellow-300">Subscribe</a>
+            <a href="auth.html" class="ml-4 text-yellow-500 hover:text-yellow-300">Login</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg h-96 flex items-center justify-center">
+        <h1 class="text-4xl font-bold text-center">Welcome to Luo Ancient Movies</h1>
+    </header>
+
+    <!-- Subscription Tiers -->
+    <section class="py-10">
+        <h2 class="text-2xl text-center mb-6">Choose Your Subscription Plan</h2>
+        <div class="flex justify-center space-x-4">
+            <div class="plan-card p-6 bg-gray-800 rounded-lg shadow-md">
+                <h3 class="text-lg font-semibold">Daily Plan</h3>
+                <p class="text-gray-400">₦200/day</p>
+                <button class="mt-4 bg-yellow-500 text-white py-2 px-4 rounded">Subscribe</button>
+            </div>
+            <div class="plan-card p-6 bg-gray-800 rounded-lg shadow-md">
+                <h3 class="text-lg font-semibold">Weekly Plan</h3>
+                <p class="text-gray-400">₦1,000/week</p>
+                <button class="mt-4 bg-yellow-500 text-white py-2 px-4 rounded">Subscribe</button>
+            </div>
+            <div class="plan-card p-6 bg-gray-800 rounded-lg shadow-md">
+                <h3 class="text-lg font-semibold">Monthly Plan</h3>
+                <p class="text-gray-400">₦3,000/month</p>
+                <button class="mt-4 bg-yellow-500 text-white py-2 px-4 rounded">Subscribe</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
